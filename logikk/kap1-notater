@@ -1,0 +1,63 @@
+Resonnement består av premisser og en konklusjon
+
+p eller q
+¬p
+---------
+q
+
+"og", "eller" og "ikke" er eksempler på logiske uttrykk.
+Logiske uttrykk bestemmer den logiske formen til en setning.
+
+Et hvert resonnement med lik logiske form som den over, må konklusjonen være sann hvis premissene er sanne.
+konklusjonen vil være en logiske følge av premissene.
+
+I formallogikken kommer alltid konklusjonen til slutt.
+
+Påstand er innholdet i en setning som uttrykker om noe er sant eller usant.
+
+Den klassiske formallogikken bygger på to prinsipper om sannhetsverdiene til en
+påstand.
+
+Kontradiksjonsprinsippet
+Ingen påstand er både sann og usann.
+
+Bivalensprinsippet
+Enhver påstand er sann eller usann.
+
+Kontradiksjonsprinsippet mest grunnleggende.
+
+Faktuell sannhet når sannhetsverdien beror på faktiske forhold.
+
+Logisk sannhet avhenger ikke av å bero på faktiske forhold.
+
+Logisk sannhet = tautologi
+
+En setning er logiske sann  hvis og bare hvis det er umulig at den er usann, dette beror på setningens logiske form.
+
+En setning er logisk usann hvis og bare hvis den umulig kan være sann, og dette beror på setningens logiske form.
+
+En setning er logisk kontigent hvis og bare hvis setningens sannhetsverdi ikke er fullt ut bestemt av setningens logiske form.
+
+En setning er logisk konsistent hvis og bare hvis setningens logiske form ikke er til hinder for at setningen er sann.
+
+Et sett av setninger er logisk konsistent hvis og bare hvis setningens logiske form ikke er til hinder for at alle setningene er sanne samtidig.
+
+Et sett av setninger er logisk inkonsistent hvis og bare hvis settet ikke er logisk konsistent.
+
+En setning som ikke er logisk konsistent kan omtales som en logisk usannhet.
+
+En setning følger logisk fra et sett av setninger hvis og bare hvis det er umulig at denne setningen er usann hvis alle setningene i sette er sanne, og dette beror på logisk form.
+
+Et resonnement er logisk gyldig hvis og bare hvis konklusjonen følger logisk fra settet som består av premissene. Et resonnement som ikke er logisk gyldig, er logisk ugyldig.
+
+To setninger er ekvivalente hvis og hvis de må ha samme sannhetsverdi, og dette beror på deres logiske form.
+
+En predikatlogisk analyse vil ofte kunne fremvise logisk struktur som ikke vil fanges opp av en setningslogisk analyse.
+Alle F er G 
+Alle G er H
+Alle F er H   
+
+Formalisere setninger
+
+Formallogiske bevissystem
+bevissystemene kan ikke anvedes på naturlige språk

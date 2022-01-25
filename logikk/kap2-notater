@@ -1,0 +1,14 @@
+I setningslogikken analyserer man logisk form mellom setningene.
+Enkle setninger som ikke inneholder setningslogiske uttrykk f.eks "ikke", "eller", "og", "det er ikke tilfellet".
+Sammensatte setninger inneholder ett eller flere logisk uttrykk.
+Batteriet er ubrukt. Er en enkel setning.
+Det er ikke tilfellet at batteriet er ubrukt. Er sammensatt.
+
+Skal ikke bry seg om grammatiske forskjeller.
+Ingrid har bil og motorsykkel.
+Ingrid har bil, og Ingrid har motorsykkel. 
+Skal behandles likt. Begge kan beskrives "p og q" i setningslogikk.
+
+Velstand i Norge vil bli redusert, eller den blir ikke redusert.
+"p eller ikke q" blir feil måte å beskrive setning.
+"p eller ikke p" er den korrekte måten.
