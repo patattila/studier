@@ -12,3 +12,26 @@ Skal behandles likt. Begge kan beskrives "p og q" i setningslogikk.
 Velstand i Norge vil bli redusert, eller den blir ikke redusert.
 "p eller ikke q" blir feil måte å beskrive setning.
 "p eller ikke p" er den korrekte måten.
+
+
+SYNTAKTISK BEKSRIVELSE AV SPRÅKET
+
+Uendelig antall setningskonstanter, fem setningsoperatører og to parantessymboler.
+
+1. Enhver setningskonstant er en formel 
+2. Hvis α og β er formler, så er 
+  (i)   ¬α
+  (ii)  (α ^ β) 
+  (iii) (α v β)
+  (iv)  (α -> β)
+  (v)   (α <-> β)
+formler.
+
+3. Ingen andre symbolsekvenser er formler i det setningslogiske språket.
+
+(α ^ β) = (p ^ r) og (r ^ q) ad infinitum 
+
+Setning og formler er synonymer når vi snakker om det setningslogiske språket.
+
+
+

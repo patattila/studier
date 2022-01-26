@@ -77,28 +77,53 @@ Et sett av setninger er logisk inkonsistent hvis og bare hvis settet ikke er log
 "Det ble ikke flertall for Brexit i folkeavstemningen i 2016"
 p 
 ikke p 
+De kan ikke være sanne samtidig.
 
 En setning som ikke er logisk konsistent kan omtales som en logisk usannhet.
 
 
 LOGISK FØLGE
 
+Betegner et sett påstander på en side, og en enkel påstand på den andre.
+
 En setning følger logisk fra et sett av setninger hvis og bare hvis det er umulig at denne setningen er usann hvis alle setningene i sette er sanne, og dette beror på logisk form.
 
+batteriet er utbrukt, eller sykkellykten er ødelagt.
+det er ikke tilfelle at batteriet er utbrukt 
+sykkellykten er ødelagt 
+
+p eller q 
+ikke p 
+q 
+
+det ble flertall for Brexit i folkeavstemningen i 2016
+batteriet er utbrukt
+det ble flertall for Brexit i folkeavstemningen i 2016
+
+p 
+q 
+p 
 
 
-
+LOGISK GYLDIGHET OG UGYLDIGHET
 
 Et resonnement er logisk gyldig hvis og bare hvis konklusjonen følger logisk fra settet som består av premissene. Et resonnement som ikke er logisk gyldig, er logisk ugyldig.
 
+p eller q 
+ikke p
+q 
+
+Logisk gyldig
+
+Et arguement er logisk ugyldig hvis og bare hvis arguementet ikke er gyldig
+
+Hvis det er ikke er mulig å finne sanne premisser og usann konklusjon. Se bildet i mappe.
+
+
 To setninger er ekvivalente hvis og hvis de må ha samme sannhetsverdi, og dette beror på deres logiske form.
+ikke p og ikke q 
+ikke (p eller q)
 
-En predikatlogisk analyse vil ofte kunne fremvise logisk struktur som ikke vil fanges opp av en setningslogisk analyse.
-Alle F er G 
-Alle G er H
-Alle F er H   
 
-Formalisere setninger
 
-Formallogiske bevissystem
-bevissystemene kan ikke anvedes på naturlige språk
+
