@@ -1,5 +1,8 @@
 Resonnement består av premisser og en konklusjon
 
+formallogikken anvender et formallogisk språk for å evaluere resonnement og setninger.
+Logiske form er hvordan resonnementet eller setning er bygd opp. 
+
 p eller q
 ¬p
 ---------
@@ -26,6 +29,9 @@ Enhver påstand er sann eller usann.
 
 Kontradiksjonsprinsippet mest grunnleggende.
 
+
+LOGISK SANNHET OG USANNHET
+
 Faktuell sannhet når sannhetsverdien beror på faktiske forhold.
 
 Logisk sannhet avhenger ikke av å bero på faktiske forhold.
@@ -33,20 +39,55 @@ Logisk sannhet avhenger ikke av å bero på faktiske forhold.
 Logisk sannhet = tautologi
 
 En setning er logiske sann  hvis og bare hvis det er umulig at den er usann, dette beror på setningens logiske form.
+p eller ikke p. Må være sann.
 
 En setning er logisk usann hvis og bare hvis den umulig kan være sann, og dette beror på setningens logiske form.
+ikke (p eller ikke p.) Må være usann
+ikke p og ikke ikke p -> ikke p og p 
+
+
+LOGISK KONTIGENS
 
 En setning er logisk kontigent hvis og bare hvis setningens sannhetsverdi ikke er fullt ut bestemt av setningens logiske form.
+Avhengig av faktiske forhold!
+"det ble flertall for Brexit i folkeavstemningen i 2016"
+"månen er laget av ost"
+Er begge kontigente. Det er ikke den logiske formen som bestemmer sannhetsverdien.
+En setning er logisk kontigent hvis og bare hvis den er verken en logisk sannhet eller en logisk usannhet. 
+
+
+LOGISK KONSISTENS OG INKONSISTENS
 
 En setning er logisk konsistent hvis og bare hvis setningens logiske form ikke er til hinder for at setningen er sann.
 
+Det betyr at logisk sanne setniger og logisk kontigente setninger er logisk konsistente. Det er ingen hinder at de begge er sanne.
+
 Et sett av setninger er logisk konsistent hvis og bare hvis setningens logiske form ikke er til hinder for at alle setningene er sanne samtidig.
+"Det ble flertall for Brexit i folkeavstemningen i 2016"
+"Det er ikke tilfellet at batteriet er ubrukt"
+p  
+ikke q
+
+Det er ingenting ved den logiske formen til de to setnigene i sette som gjør dem uforenelig i den forstand at de ikke begge kan være sanne samtidig.
+
 
 Et sett av setninger er logisk inkonsistent hvis og bare hvis settet ikke er logisk konsistent.
 
+"Det ble flertall for Brexit i folkeavstemningen i 2016"
+"Det ble ikke flertall for Brexit i folkeavstemningen i 2016"
+p 
+ikke p 
+
 En setning som ikke er logisk konsistent kan omtales som en logisk usannhet.
 
+
+LOGISK FØLGE
+
 En setning følger logisk fra et sett av setninger hvis og bare hvis det er umulig at denne setningen er usann hvis alle setningene i sette er sanne, og dette beror på logisk form.
+
+
+
+
 
 Et resonnement er logisk gyldig hvis og bare hvis konklusjonen følger logisk fra settet som består av premissene. Et resonnement som ikke er logisk gyldig, er logisk ugyldig.
 
