@@ -38,8 +38,17 @@ Setning og formler er synonymer når vi snakker om det setningslogiske språket.
 Setninger som er konstruert ved hjelp av formasjonsregler er sammensatte formler.
 
 α og β er setningskonstantene "s" og "r"
+
 (2,iii)
 (s ∨ r)
+α denne formelen
+utvider med (2,i) 
+¬(s ∨ r)
+α denne formelen 
+utvider med (2,i) 
+¬¬(s ∨ r)
+β denne formelen
+α = q 
+utvider med (2,ii)
+(q ∧ ¬¬(s ∨ r))
 
-(2,i)
-¬
