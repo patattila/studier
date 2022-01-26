@@ -18,20 +18,28 @@ SYNTAKTISK BEKSRIVELSE AV SPRÅKET
 
 Uendelig antall setningskonstanter, fem setningsoperatører og to parantessymboler.
 
+Formasjonsregler for det setningslogiske språket
 1. Enhver setningskonstant er en formel 
 2. Hvis α og β er formler, så er 
   (i)   ¬α
-  (ii)  (α ^ β) 
-  (iii) (α v β)
-  (iv)  (α -> β)
-  (v)   (α <-> β)
+  (ii)  (α ∧ β) 
+  (iii) (α ∨ β)
+  (iv)  (α → β)
+  (v)   (α ⟷ β)
 formler.
 
 3. Ingen andre symbolsekvenser er formler i det setningslogiske språket.
 
-(α ^ β) = (p ^ r) og (r ^ q) ad infinitum 
+
+(α ∧ β) = (p ∧ r) og (r ∧ q) ad infinitum 
 
 Setning og formler er synonymer når vi snakker om det setningslogiske språket.
 
+Setninger som er konstruert ved hjelp av formasjonsregler er sammensatte formler.
 
+α og β er setningskonstantene "s" og "r"
+(2,iii)
+(s ∨ r)
 
+(2,i)
+¬

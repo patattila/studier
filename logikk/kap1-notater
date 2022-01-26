@@ -112,18 +112,16 @@ Et resonnement er logisk gyldig hvis og bare hvis konklusjonen følger logisk fr
 p eller q 
 ikke p
 q 
-
 Logisk gyldig
 
-Et arguement er logisk ugyldig hvis og bare hvis arguementet ikke er gyldig
 
-Hvis det er ikke er mulig å finne sanne premisser og usann konklusjon. Se bildet i mappe.
 
+LOGISK EKVIVALENS
 
 To setninger er ekvivalente hvis og hvis de må ha samme sannhetsverdi, og dette beror på deres logiske form.
 ikke p og ikke q 
 ikke (p eller q)
 
-
-
+Kan være to usanne setninger eller to sanne setninger.
+Umulig at den ene er sann mens den andre er usann
 
