@@ -1,0 +1,241 @@
+I setningslogikken analyserer man logisk form mellom setningene.
+Enkle setninger som ikke inneholder setningslogiske uttrykk f.eks "ikke", "eller", "og", "det er ikke tilfellet".
+Sammensatte setninger inneholder ett eller flere logisk uttrykk.
+Batteriet er ubrukt. Er en enkel setning.
+Det er ikke tilfellet at batteriet er ubrukt. Er sammensatt.
+
+Skal ikke bry seg om grammatiske forskjeller.
+Ingrid har bil og motorsykkel.
+Ingrid har bil, og Ingrid har motorsykkel. 
+Skal behandles likt. Begge kan beskrives "p og q" i setningslogikk.
+
+Velstand i Norge vil bli redusert, eller den blir ikke redusert.
+"p eller ikke q" blir feil måte å beskrive setning.
+"p eller ikke p" er den korrekte måten.
+
+
+SYNTAKTISK BEKSRIVELSE AV SPRÅKET
+
+Uendelig antall setningskonstanter, fem setningsoperatører og to parantessymboler.
+
+Formasjonsregler for det setningslogiske språket
+1. Enhver setningskonstant er en formel 
+2. Hvis α og β er formler, så er 
+  (i)   ¬α
+  (ii)  (α ∧ β) 
+  (iii) (α ∨ β)
+  (iv)  (α → β)
+  (v)   (α ⟷ β)
+formler.
+
+3. Ingen andre symbolsekvenser er formler i det setningslogiske språket.
+
+
+(α ∧ β) = (p ∧ r) og (r ∧ q) ad infinitum 
+
+Setning og formler er synonymer når vi snakker om det setningslogiske språket.
+
+Setninger som er konstruert ved hjelp av formasjonsregler er sammensatte formler.
+
+α og β er setningskonstantene "s" og "r"
+
+(2,iii)
+(s ∨ r)
+α denne formelen
+utvider med (2,i) 
+¬(s ∨ r)
+α denne formelen 
+utvider med (2,i) 
+¬¬(s ∨ r)
+β denne formelen
+α = q 
+utvider med (2,ii)
+(q ∧ ¬¬(s ∨ r))
+
+¬ negasjon 
+∧ konjuksjon 
+∨ disjunksjon 
+→ kondisjonal
+⟷ bikondisjonal
+
+
+Negasjonsoperatoren ¬
+Er en monadisk operator, det vil si at den opererer på en setning. 
+Kun Negasjonsoperatoren som er det.
+
+¬ uttrykker α ikke er tilfellet.
+
+Det er ikke sant at α
+Det er usant at α
+Det er feil at α
+Det er løgn at α
+Det er helt usannsynlig at α
+Det er utelukket at α
+
+
+
+
+Konjuksjonsperatoren ∧
+Dyadisk operator, det vil si at den opererer på to setninger.
+
+(α ∧ β) uttrykker både α og β er tilfellet. 
+α og β
+α samt β
+α mens β
+α samtidig som β
+
+"Batteriet er utbrukt og sykkellykten er ødelagt"
+"batteriet er utbrukt" = p
+"sykkellykten er ødelagt" = q 
+p ∧ q 
+
+"Formallogisk syntaks definerer vokabularet samt formasjonsregler"
+"Formallogisk syntaks definerer vokabularet" = p 
+"Formallogisk syntaks definerer formasjonsregler" = q 
+p ∧ q 
+
+
+α, men β
+"tor jobber overtid, men han gjør det gjerne"
+"tor jobber overtid" = p 
+"tor gjerne jobber overtid" = q 
+p ∧ q 
+
+Ingrid har bil, motorsykkel og båt 
+
+p ∧ q ∧ r      FEIL!
+
+(p ∧ q) ∧
+
+p ∧ (q ∧ r)
+
+De to siste er korrekt. 
+
+
+
+
+Disjunksjonsoperatoren ∨
+
+(α ∨ β) uttrykker minst en av α og β er tilfellet.
+
+α eller β
+"batteriet er utbrukt, eller sykkellykten er ødelagt"
+p ∨ q 
+
+"Ingrid har bil eller motorsykkel."
+"Ingrid har bil"
+"Ingrid har motorsykkel"
+p ∨ q 
+
+
+"Pia vil ha kaffe eller kake" 
+Inklusiv disjuksjon
+
+"Pia car enten i paris, eller beijing 25.jan 2022"
+Ekslusiv disjunksjon
+
+Begge formaliseres på samme måte (p ∨ q)
+
+Disjunksjonsoperatoren tolkes alltid som inklusiv disjuksjon
+- at en eller den andre er tilfelle, men at det er også mulig at begge er.
+
+
+For å uttrykke eksklusiv disjunksjon (at et og bare et av alternativene er tilfellet) brukes følgende formel :
+(p ∨ q) ∧ ¬(p ∧ q) 
+
+
+"bare to muligheter gjenstår: at avdøde ble drept, og at avdøde begikk selvmord"
+"at avdøde ble drept eller begikk selvmord"
+p ∨ q 
+
+
+
+
+Kondisjonaloperator →
+α → β
+hvis α da β
+
+Hvis α så β  
+Hvis det regner så blir det vått
+
+β hvis α     
+det blir vått hvis det regner 
+
+α bare hvis β
+det blir vått bare hvis det regner
+
+ikke α uten β
+det blir ikke vått uten regn
+
+α er en tilstrekkelig betingelse for β
+det at det regner er en tilstrekkelig betingelse for at det blir vått
+
+β er en nødvendig betingelse for α
+regn er en nødvendig betingelse for at det skal bli vått
+
+β er en forutsetning for α
+regn er en forutsetning for at det skal bli vått
+
+
+
+Det er flere synonymer for "hvis"
+"dersom"
+"gitt at"
+"såfremt"
+Ordet "om" brukes også ofte som synonym
+
+I formelen α → β
+α for antecedent
+β for konsekvent
+
+
+tilstrekkelig
+p: "Jeg vinner i lotto"
+q: "Jeg blir glad"
+"hvis jeg vinner i lotto, blir jeg glad"
+p → q 
+hvis p da q
+
+nødvendig
+"bare hvis jeg vinner i lotto, blir jeg glad"
+q → p 
+hvis q da p
+hvis jeg er q er det fordi p 
+
+
+Problematisk å bruke
+
+lett å assosiere "α → β" med kronologisk rekkefølge
+da kan vi tenke feil at det som kommer først i tid må være antecedent.
+
+lett å assosiere "α → β" med årsakssammenheng
+da kan vi tenke feil at det som er årsaken må være antecedent.
+
+
+
+bikondisjonaloperatorenf
+
+
+
+
+negerte disjuksjoner 
+"Det er ikke tilfellet at Pia vil ha kaffe eller Pia vil ha kake"
+¬(p ∨ q)
+
+negerte disjuksjoner uttrykker at ingen av de alternativene er tilfelle.
+"Pia vil ikke ha kaffe og Pia vil ikke ha kake"
+
+kan også oversettes som konjuksjon av negerte disjuktene.
+¬p ∧ ¬q 
+
+
+negerte konjuksjoner 
+"det er ikke tilfellet at sola skinner og at det er vamrt"
+¬(p ∧ p)
+
+Negerte konjuksjoner uttrykker at minst et av leddene ikke er tilfellet:
+"Enten skinner sola ikke eller at det ikke er varmt"
+¬p ∨ ¬q 
+ikke p eller ikke
+
+

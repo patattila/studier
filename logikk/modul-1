@@ -40,11 +40,14 @@ Logisk sannhet = tautologi
 
 En setning er logiske sann  hvis og bare hvis det er umulig at den er usann, dette beror på setningens logiske form.
 p eller ikke p. Må være sann.
+p ∨ ¬ p
 
 En setning er logisk usann hvis og bare hvis den umulig kan være sann, og dette beror på setningens logiske form.
 ikke (p eller ikke p.) Må være usann
 ikke p og ikke ikke p -> ikke p og p 
 
+¬(p ∨ ¬p)
+¬p ∧ p
 
 LOGISK KONTIGENS
 
