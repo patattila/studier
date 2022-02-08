@@ -1,0 +1,78 @@
+Semantiske regler for det setningslogiske språket.
+
+
+
+
+(i)   ¬α            er sann hvis ¬α er usann
+(ii)  (α ∧ β)       er sann hvis både α og β er sanne
+(iii) (α ∨ β)       er sann hvis α og/eller β er sann
+(iv)  (α → β)       er sann hvis α er usann og/eller β er sann
+(v)   (α ⟷ β)      er sann hvis α og β har samme sannhetsverdi
+
+p ∨ (q ∧ (r → s)) 
+p er hovedfuksjonen fordi den har minst paranteser rundt seg.
+
+
+|  α  |  β  |α ∧ β|α ∨ β|α → β|α ⟷ β|
+|  s  |  s  |  s  |  s  |  s  |   s  |
+|  s  |  u  |  u  |  s  |  u  |   u  |
+|  u  |  s  |  u  |  s  |  s  |   u  |
+|  u  |  u  |  u  |  u  |  s  |   s  |
+
+
+Sannhetsbetingelser for konjuksjon
+(α ∧ β) er sann hvis både α og β er sanne
+
+Sola skinner og det er varmt
+p ∧ q
+
+Konjuksjon i naturlig språk og som sannhetsfunksjon og 
+
+"ingrid og tor giftet seg og fikk barn"
+p ∧ q
+
+"ingrid og tor fikk barn og giftet seg" 
+p ∧ q 
+
+Nyansene blir borte når man formaliserer til det setningslogiske språket.
+
+
+Sannhetsbetingelser for disjunksjon
+(α ∨ β) er sann hvis α og/eller β er sann
+inklusiv disjunksjon
+
+
+Sannhetsbetingelser for kondisjonal
+(α → β) er sann hvis α er usann og/eller β er sann
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
